@@ -1,0 +1,23 @@
+/*roboto font*/
+.roboto{
+    font-family: Roboto;
+    font-weight: 400;
+}
+.roboto_bold{
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+/* tino font */
+.tinos{
+    font-family: Tinos;
+    font-weight: 400;
+}
+.tinos_bold{
+    font-family: Tinos;
+    font-weight: 700;
+}
+
+p{
+    margin: 0px;
+}

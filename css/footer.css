@@ -1,0 +1,120 @@
+footer{
+    background-color: #423A36;
+    text-align: center;
+
+    padding-top: 114px;
+}
+
+footer .info{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 70px;
+    margin-bottom: 81px;
+}
+footer .info .item{
+    display:inline-block;
+    text-align: center;
+    width: 30%;
+}
+footer .info .item .line1{
+    font-size: 18px;
+    line-height: 21px;
+
+    color: white;
+    margin-bottom: 72px;
+}
+footer .info .item .line2{
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #C8C0B8;
+    margin-bottom: 24px;
+}
+footer .info .item .line3{
+    font-size: 14px;
+    line-height: 16px;
+
+    color: white;
+    margin-top: 21px;
+    margin-bottom: 29px;
+}
+footer .info .item .line4{
+    font-size: 30px;
+    line-height: 34px;
+
+    color: #C39567;
+    margin-bottom: 49px;
+}
+footer .info .item .line5{
+    font-size: 14px;
+    line-height: 16px;
+
+    color: white;
+}
+footer .belowfooter{
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+
+    border-top: 1px solid #5E5754;
+}
+footer .belowfooter .copyright, footer .belowfooter .socialmedia{
+    width: 30%;
+
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: white;
+}
+
+
+
+@media (max-width: 1200px) {
+    footer .info .line{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    footer{
+        padding-top: 70px;
+        padding-bottom: 23px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    footer .logo{
+        width: 100%;
+    }
+    footer .info{
+        flex-direction: column;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    footer .info .line{
+        display: none;
+    }
+    footer .info .item{
+        width: 100%;
+        margin-bottom: 46px;
+    }
+    footer .info .item .line1{
+        margin-bottom: 30px;
+    }
+    footer .info .item .line3{
+        margin-top: 16px;
+        margin-bottom: 18px;
+    }
+
+    footer .belowfooter{
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    footer .belowfooter .copyright, footer .belowfooter .socialmedia{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

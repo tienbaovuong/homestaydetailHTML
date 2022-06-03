@@ -1,0 +1,48 @@
+
+/* seventh content */
+.datphong{
+    text-align: center;
+    padding-bottom: 58px;
+}
+.datphong h3{
+    font-size: 52px;
+    line-height: 60px;
+    margin-bottom: 5px;
+}
+.datphong h4{
+    font-size: 18px;
+    line-height: 26px;
+    
+    color: #CF9D6C;
+    margin-bottom: 62px;
+}
+.datphong .item{
+    padding-bottom: 50px;
+    box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.15);
+}
+.datphong .item .picture{
+    background-image: url("../images/content_7_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 21.51vw;
+
+    margin-bottom: 20px;
+}
+.datphong .item .picture span{
+    position: relative;
+    top: 85%;
+
+    font-size: 24px;
+    line-height: 26px;
+    color: white;
+}
+.datphong .item .detail{
+    margin-top: 68px;
+
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #CF9D6C;
+}
+
+
