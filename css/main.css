@@ -1,26 +1,27 @@
+/* premium room */
 
-/* seventh content */
-.datphong{
+
+/* detail room */
+.detailroom{
+    background: #FAF6F1;
+}
+
+/* phong nghi pho bien */
+.phongnghiphobien{
     text-align: center;
     padding-bottom: 58px;
 }
-.datphong h3{
+.phongnghiphobien h3{
     font-size: 52px;
     line-height: 60px;
-    margin-bottom: 5px;
+    margin-top: 70px;
+    margin-bottom: 50px;
 }
-.datphong h4{
-    font-size: 18px;
-    line-height: 26px;
-    
-    color: #CF9D6C;
-    margin-bottom: 62px;
-}
-.datphong .item{
+.phongnghiphobien .item{
     padding-bottom: 50px;
     box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.15);
 }
-.datphong .item .picture{
+.phongnghiphobien .item .picture{
     background-image: url("../images/content_7_1.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +29,7 @@
 
     margin-bottom: 20px;
 }
-.datphong .item .picture span{
+.phongnghiphobien .item .picture span{
     position: relative;
     top: 85%;
 
@@ -36,7 +37,7 @@
     line-height: 26px;
     color: white;
 }
-.datphong .item .detail{
+.phongnghiphobien .item .detail{
     margin-top: 68px;
 
     font-size: 12px;
@@ -46,3 +47,22 @@
 }
 
 
+
+
+@media (max-width: 768px) {
+    .phongnghiphobien{
+        padding-bottom: 50px;
+    }
+    .phongnghiphobien h3{
+        font-size: 34px;
+        line-height: 39px;
+        margin-bottom: 15px;
+    }
+    .phongnghiphobien .item{
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .phongnghiphobien .item .picture{
+        height: 60vw;
+    }
+}
