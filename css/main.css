@@ -1,5 +1,39 @@
 /* premium room */
+.premiumroom{
+    padding-top: 37px;
+    padding-bottom: 50px;
+}
+.premiumroom h3{
+    font-size: 54px;
+    line-height: 62px;
+}
+.premiumroom h4{
+    font-size: 24px;
+    line-height: 26px;
+    
+    color: #1C1C1C;
+}
+.premiumroom .rating{
+    display: flex;
+    flex-flow: row;
+}
+.premiumroom .rating .stars{
+    list-style: none;
+    display: flex;
+    flex-flow: row;
 
+    padding-left: 0px;
+    margin-top: -8px;
+}
+.premiumroom .rating span{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.premiumroom .line{
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
 
 /* detail room */
 .detailroom{
