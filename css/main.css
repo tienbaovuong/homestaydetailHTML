@@ -127,7 +127,7 @@
 }
 .premiumroom .datphong .bookingbutton{
     margin-top: 30px;
-    padding: 17px 122px 17px 122px;
+    padding: 17px 0px 17px 0px;
 
     background: #CF9D6C;
     color: white;
@@ -135,11 +135,172 @@
 
     font-size: 18px;
     line-height: 21px;
+    text-align: center;
 }
 
 /* detail room */
 .detailroom{
     background: #FAF6F1;
+
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.detailroom h4{
+    font-size: 26px;
+    line-height: 30px;
+}
+.detailroom h5{
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #1C1C1C;
+}
+.detailroom .detailmenu{
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+
+    padding-left: 0px;
+    overflow: auto;
+}
+
+.detailroom .detailmenu .detailmenutab{
+    margin-right: 80px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #423A36;
+}
+.detailroom .orangeline{
+    background: #CF9D6C;
+    height: 5px;
+    width: 109px;
+    
+}
+.detailroom .line{
+    opacity: 0.2;
+    border: 1px solid #000000;
+    
+    margin-bottom: 30px;
+}
+.detailroom .detailtext{
+    font-size: 16px;
+    line-height: 26px;
+    
+    color: #6B6460;
+    margin-bottom: 60px;    
+}
+.detailroom .tienich{
+    margin-bottom: 12px;
+}
+.detailroom .tienich .tienich_list{
+    padding-left: 0px;
+    margin-top: 30px;
+
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+.detailroom .tienich .tienich_list .tienich_item{
+    width: 33.3%;
+    margin-bottom: 50px;
+}
+
+.detailroom .danhgia .grade{
+    margin-top: 40px;
+}
+.detailroom .danhgia .grade .current_grade{
+    font-size: 60px;
+    line-height: 69px;
+    
+    color: #8A6D3B;
+}
+.detailroom .danhgia .grade .max_grade{
+    font-size: 26px;
+    line-height: 30px;
+    
+    color: #8A6D3B;
+}
+.detailroom .danhgia .grade .duatren{
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #CF9D6C;
+}
+.detailroom .danhgia .grade .grade_list{
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+
+    padding-left: 0px;
+}
+.detailroom .danhgia .grade .grade_list .grade_item{
+    width: 30%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.detailroom .comment .comment_list{
+    list-style: none;
+    padding-left: 0px;
+}
+.detailroom .comment .comment_list .comment_item{
+    margin-bottom: 30px;
+}
+.detailroom .comment .comment_list .comment_item .avatar{
+    margin-bottom: 10px;
+}
+.detailroom .comment .comment_list .comment_item .username{
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #1C1C1C;
+    font-weight: 500;
+}
+.detailroom .comment .comment_list .comment_item .useraddress{
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #666666;
+}
+.detailroom .comment .comment_list .comment_item .calendarimg{
+    margin-right: 8px;
+}
+.detailroom .comment .comment_list .comment_item .calendartext{
+    font-size: 14px;
+    line-height: 24px;
+    
+    color: #666666;
+}
+.detailroom .comment .comment_list .comment_item .detailcomment{
+    background-color: #ffffff;
+    border-radius: 3px;
+
+    padding-top: 20px;
+    padding-bottom: 23px;
+}
+.detailroom .comment .comment_list .comment_item .detailcomment .comment_point{
+    font-size: 16px;
+    line-height: 19px;
+   
+    color: #FFFFFF;
+    background: #CF9D6C;
+    border-radius: 3px;
+
+    padding: 8px 5px 8px 5px;
+    margin-right: 20px;
+}
+.detailroom .comment .comment_list .comment_item .detailcomment .comment_detail{
+    margin-top: 15px;
+
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #555555;
 }
 
 /* phong nghi pho bien */
@@ -186,6 +347,13 @@
 
 
 @media (max-width: 768px) {
+    .detailroom .tienich .tienich_list .tienich_item{
+        width: 50%;
+    }
+    .detailroom .danhgia .grade .grade_list .grade_item{
+        width: 45%;
+        margin-right: 0px;
+    }
     .phongnghiphobien{
         padding-bottom: 50px;
     }
