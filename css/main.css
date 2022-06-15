@@ -12,7 +12,13 @@
     line-height: 26px;
     
     color: #1C1C1C;
+    margin-bottom: 40px;
 }
+.premiumroom .line{
+    opacity: 0.1;
+    border: 1px solid #000000;
+}
+
 .premiumroom .rating{
     display: flex;
     flex-flow: row;
@@ -29,10 +35,106 @@
     font-size: 14px;
     line-height: 16px;
 }
+.premiumroom .shortinfo ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
 
-.premiumroom .line{
-    opacity: 0.1;
-    border: 1px solid #000000;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+.premiumroom .shortinfo .iteminfo{
+    width: 180px;
+    margin-bottom: 15px;
+}
+.premiumroom .shortinfo .iteminfo .iteminfo_symbol{
+    margin-right: 10px;
+}
+
+.premiumroom .banner img{
+    width: 100%;
+}
+.premiumroom .listpicture{
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+
+    padding-top: 0.85vw;
+    padding-left: 0px;
+    align-self: start;
+}
+.premiumroom .listpicture li{
+    margin-left: 0.85%;
+    margin-right: 0.85%;
+    width: 16.67%;
+}
+.premiumroom .listpicture li img{
+    width: 100%;
+}
+
+.premiumroom .giaphong{
+    background: #423A36;
+    color: #ffffff;
+    
+    padding-top: 30px;
+    padding-bottom: 42px;
+}
+.premiumroom .giaphong .chitu{
+    font-size: 16px;
+    line-height: 18px;
+
+    margin-bottom: 13px;
+}
+.premiumroom .giaphong .dongia{
+    font-size: 34px;
+    line-height: 26px;
+}
+.premiumroom .giaphong .pernight{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.premiumroom .datphong{
+    padding-top: 44px;
+    padding-bottom: 40px;
+
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.07);
+}
+.premiumroom .datphong .line{
+    margin-top: 13px;
+    margin-bottom: 30px;
+}
+.premiumroom .datphong .roboto{
+    font-size: 16px;
+    line-height: 19px;
+
+    color:#1C1C1C;
+    margin-left: 10px;
+}
+.premiumroom .datphong .minus{
+    margin-right: 30px;
+}
+.premiumroom .datphong .tong{
+    font-size: 24px;
+    line-height: 26px;
+}
+.premiumroom .datphong .price{
+    font-size: 34px;
+    line-height: 26px;
+
+    color: #CF9D6C;
+}
+.premiumroom .datphong .bookingbutton{
+    margin-top: 30px;
+    padding: 17px 122px 17px 122px;
+
+    background: #CF9D6C;
+    color: white;
+    border-radius: 5px;
+
+    font-size: 18px;
+    line-height: 21px;
 }
 
 /* detail room */
